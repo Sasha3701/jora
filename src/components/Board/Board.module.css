@@ -1,0 +1,26 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1920px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.board::-webkit-scrollbar {
+  height: 8px;
+}
+
+.board::-webkit-scrollbar-track {
+  background: inherit; 
+}
+ 
+.board::-webkit-scrollbar-thumb {
+  background: var(--grey-60-color); 
+  border-radius: 4px;
+}
+
+.board::-webkit-scrollbar-thumb:hover {
+  background: var(--grey-60-color); 
+}

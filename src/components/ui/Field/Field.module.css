@@ -1,0 +1,14 @@
+.field {
+  display: flex;
+  gap: 16px;
+  min-height: 21px;
+}
+
+.field__label {
+  color: var(--grey-60-color);
+}
+
+.field__value {
+  font-weight: bold;
+  color: var(--grey-87-color);
+}

@@ -1,0 +1,1 @@
+export { WrapperBackground } from './WrapperBackground';

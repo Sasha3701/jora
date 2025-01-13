@@ -1,0 +1,28 @@
+.group-item {
+  padding: 16px;
+  border: 1px solid var(--grey-00-color);
+  border-radius: 4px;
+  background-color: var(--grey-10-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.group-item:hover {
+  border-color: var(--blue-color);
+}
+
+.group-item_edited {
+  border-color: var(--blue-color);
+}
+
+.group-item_disabled.group-item:hover {
+  border-color: var(--grey-00-color);
+}
+
+.group-item_expired {
+  border-color: var(--red-color);
+}
+
+.group-item_expired:hover {
+  border-color: var(--red-color);
+}

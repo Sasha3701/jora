@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+}
+
+.icon {
+  position: absolute;
+  top: 25%;
+  left: 20px;
+}
+
+.search-input {
+  height: 40px;
+  border: 1px solid var(--grey-30-color);
+  border-radius: 20px;
+  outline: none;
+  padding: 0 20px 0 64px;
+  background-color: var(--grey-07-color);
+  transition: all 0.3s ease;
+  color: var(--grey-87-color);
+  width: 100%;
+}
+
+.search-input:hover {
+  border-color: var(--blue-color);
+}
+
+.search-input:focus {
+  outline: 2px solid var(--blue-50-color);
+}

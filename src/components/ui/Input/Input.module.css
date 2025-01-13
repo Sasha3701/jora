@@ -1,0 +1,21 @@
+.input {
+  height: 22px;
+  padding: 0 10px;
+  color: var(--grey-87-color);
+  border: 1px solid var(--grey-50-color);
+  border-radius: 4px;
+  background-color: inherit;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  outline: none;
+  display: inline-block;
+  width: 80%;
+}
+
+.input:hover {
+  border-color: var(--blue-color);
+}
+
+.input:focus {
+  border-color: var(--blue-color);
+}

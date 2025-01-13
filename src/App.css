@@ -1,0 +1,21 @@
+.panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+  padding: 0 40px;
+}
+
+.panel__search-input {
+  width: 430px;
+}
+
+@media (max-width: 768px) {
+  .panel {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .panel__search-input {
+    width: 100%;
+  }
+}

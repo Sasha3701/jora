@@ -1,0 +1,32 @@
+.buttons {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.button svg {
+  transition: all 0.3s ease;
+  color: var(--grey-80-color);
+}
+
+.buttonTrash svg {
+  color: var(--grey-60-color);
+}
+
+.button:hover svg {
+  color: var(--blue-color);
+}
+
+.buttonTrash:hover svg {
+  color: var(--red-color);
+}

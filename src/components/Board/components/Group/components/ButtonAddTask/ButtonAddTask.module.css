@@ -1,0 +1,13 @@
+.add-button {
+  margin-left: auto;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  color: var(--grey-60-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  color: var(--blue-color);
+}
