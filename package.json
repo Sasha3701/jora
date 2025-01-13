@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Sasha3701.github.io/jora/",
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
     "test": "vitest",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.5.1",
@@ -26,6 +28,7 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
